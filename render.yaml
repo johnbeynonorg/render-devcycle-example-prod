@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-amazing-app
+    name: my-amazing-app-production
     repo: https://github.com/johnbeynonorg/render-devcycle-example
     plan: free
     env: ruby
