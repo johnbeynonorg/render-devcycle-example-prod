@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-amazing-app
+    repo: https://github.com/johnbeynonorg/render-devcycle-example
+    plan: free
+    env: ruby
+    autoDeploy: false # this is the default but included for
+    buildCommand: ./render-build.sh
+    startCommand: ./render-start.sh
